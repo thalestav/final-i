@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color:rgb(250, 244, 235);
+}
+header{
+    border: 1px solid black;
+    width: 20rem;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 228, 228);
+}
+.grid-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 200px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile-photo{
+    width: 10rem;
+    border-radius: 50%;
+}
+.list-section{
+    list-style-type: none;
+}
+.linkedin-logo, .facebook-logo, .twitter-logo, .github-logo{
+    width: 2rem;   
+    margin-left: 1rem;
+    border-radius: 20%;
+}
+
