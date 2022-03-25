@@ -6,7 +6,7 @@ body{
 header{
     border: 1px solid black;
     width: 20rem;
-    height: 50rem;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +16,6 @@ header{
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 2fr;
-    padding-top: 100px;
-    padding-left: 100px;
     padding-right: 200px;
     justify-items: center;
     align-items: center;
@@ -30,8 +28,12 @@ header{
 .list-section{
     list-style-type: none;
 }
-.linkedin-logo, .facebook-logo, .twitter-logo, .github-logo{
+.facebook-logo, .twitter-logo, .github-logo{
     width: 2rem;   
-    margin-left: 1rem;
+    margin-left: 5rem;
+    border-radius: 20%;
+}
+.linkedin-logo{
+    width: 2rem;
     border-radius: 20%;
 }
