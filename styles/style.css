@@ -1,0 +1,93 @@
+body{
+display: grid;
+grid-template-columns: 1fr 4fr;
+background-color: #EEEDDE;
+font-family: sans-serif;
+}
+
+header{
+    background-color: #d3d6d6;
+    min-height: 100vh;
+    border: 1px solid #d3d6d6;
+    display: flex;
+    align-items: center;
+    border-radius: 1%;
+}
+.nav-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.profile-photo{
+    border-radius: 50%;
+    width: 10rem;
+    margin-bottom: 2rem;
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.flexbox-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.navigation-section{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.navigation-section a{
+    color: #7a7a76;
+}
+.nav-section a:hover{
+    color: black;
+}
+
+.flexbox-2{
+    line-height: 3rem;
+}
+.info-section > h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.info-section h1 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.info-section span, a {
+    color: #7a7a76;
+    
+}
+.info-section a:hover{
+    color: black;
+}
+.social-section{
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+   justify-content: space-between;
+   margin-top: 2rem;
+}
+.social-section img {
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.flexitens-1{
+    margin-top: 35vh;
+}
+.flexitens-1 li{
+    list-style-type: upper-alpha;
+    line-height: 3rem
+    
+}
+.flexgoals-1{
+    margin-top: 35vh;
+}
+.flexgoals-1 li {
+    line-height: 4rem;
+}
