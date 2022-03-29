@@ -3,91 +3,131 @@ body{
     grid-template-columns: 1fr 4fr;
     background-color: #EEEDDE;
     font-family: sans-serif;
-    }
-    
-    header{
-        background-color: #d3d6d6;
-        min-height: 100vh;
-        border: 1px solid #d3d6d6;
-        display: flex;
-        align-items: center;
-        border-radius: 1%;
-    }
-    .nav-section{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .profile-photo{
-        border-radius: 50%;
-        width: 10rem;
-        margin-bottom: 2rem;
-    
-    }
-    main{
-        display: flex;
-        align-items: center;
-        margin-left: 5rem;
-    }
-    .flexbox-2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-    .navigation-section{
-        display: flex;
-        flex-direction: column;
-        gap: 6rem;
-    }
-    .navigation-section a{
-        color: #7a7a76;
-    }
-    .nav-section a:hover{
-        color: black;
-    }
-    
-    .flexbox-2{
-        line-height: 3rem;
-    }
-    .info-section > h1{
-        font-weight: bold;
-        font-size: 50px;
-    }
-    .info-section h1 {
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
-    }
-    .info-section span, a {
-        color: #7a7a76;
-    
-    }
-    .info-section a:hover{
-        color: black;
-    }
-    .social-section{
-        display: flex;
-        flex-direction: row;
-        width: 25rem;
-       justify-content: space-between;
-       margin-top: 2rem;
-    }
-    .social-section img {
-        width: 2rem;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-    .flexitens-1{
-        margin-top: 35vh;
-    }
-    .flexitens-1 li{
-        list-style-type: upper-alpha;
-        line-height: 3rem
-    
-    }
-    .flexgoals-1{
-        margin-top: 35vh;
-    }
-    .flexgoals-1 li {
-        line-height: 4rem;
-    }
+}
+header{
+    background-color: #d3d6d6;
+    min-height: 100vh;
+    border: 1px solid #d3d6d6;
+    display: flex;
+    align-items: center;
+    border-radius: 1%;
+    justify-content: space-around
+    ;
+}
+h1 span{
+    color: #d3d6d6;
+}
+.info-section h1{
+    border-top: 3px solid #d3d6d6;
+    border-bottom: 3px solid #d3d6d6;
+    font-size: 50px;
+}
+.info-section a{
+    color: #d3d6d6;
+}
+.info-section a:hover{
+    color: black;
+}
+.flexbox-01{
+    display: flex;
+}
+
+.navigation-section{
+    display: flex;
+    flex-direction: column;
+}
+.navigation-section a:hover{
+    color: black;
+}
+.flexbox-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.nav-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}   
+.last-name{
+    color: rgb(230, 228, 228);
+}
+.grid-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    padding-right: 200px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(177, 177, 177) ;
+
+
+}
+.list-section a:hover{
+    color: rgb(177, 177, 177);
+}
+.header-container{
+    margin-left: -1px;
+}
+main{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.main-container h1,h4,p,a{
+    margin-top: 20px;
+}
+.main-container ol{
+    list-style-type: upper-alpha;
+    font-size: 45px;
+    width: 100vw;
+    padding-top: 12rem;
+    padding-left: 5rem;
+}
+.profile-photo{
+    border-radius: 50%;
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+.list-section{
+    list-style-type: none;
+    padding-left: 20px;
+    color: black;
+}
+.facebook-logo, .twitter-logo, .github-logo{
+    width: 2rem;   
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border-radius: 20%;
+    padding-top: 3rem;
+}
+.linkedin-logo{
+    width: 2rem;
+    border-radius: 20%;
+    padding-top: 3rem;
+
+}
+
+.about, .knowledge, .goal{
+    padding-top: 4rem;
+}
+.flexgoals-1{
+    width: 100vw;
+    padding-top: 13rem;
+    padding-left:2rem;
+}
+.flexgoals-1 li {
+    line-height: 4rem;
+    list-style-type: none;
+    font-size: 20px;
+}
+li{
+    line-height: 55px;
+    font-size: 20px;
+}
+ol li{
+    list-style-type: upper-alpha;
+}
